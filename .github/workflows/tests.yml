@@ -27,4 +27,8 @@ jobs:
           cd build
           cmake ..
           make
-          ./src/calculator carre 10 
+          ./src/calculator add 10 5
+          ./src/calculator carre 10
+          ./src/calculator div 10 5
+          ./src/calculator sub 10 5
+          ./src/calculator mul 10 5
