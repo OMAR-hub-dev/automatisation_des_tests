@@ -86,7 +86,7 @@ jobs:
           ./src/calculator mul 10 5
   deployement:
     runs-on: ubuntu-latest
-    needs: Test_multi
+    needs: [Test_multi, Test_carre, Test_sub, Test_Add, Test_div]
     steps:
       - name: Test fonction add
         run: |
