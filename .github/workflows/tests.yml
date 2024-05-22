@@ -13,7 +13,7 @@ jobs:
           cd build
           cmake ..
           make
-          make test7
+          make test
   Test_Add:
     runs-on: ubuntu-latest
     needs: Compilation
@@ -27,4 +27,4 @@ jobs:
           cd build
           cmake ..
           make
-          ./src/calculator add 10 5
+          ./src/calculator carre 10 
